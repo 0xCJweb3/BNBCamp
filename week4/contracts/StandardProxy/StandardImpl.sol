@@ -24,7 +24,7 @@ contract StandardImpl {
     }
 
     function setValue(uint256 _newValue) public {
-        value = _newValue + 100;
+        value = _newValue + 1000;
     }
 
     function setName(string memory _newName) public {
